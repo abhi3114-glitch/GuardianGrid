@@ -11,6 +11,15 @@ When disaster strikes, communication is often the first casualty. GuardianGrid a
 *   **AI-Powered Analysis**: Monitors network health and suggests optimizations in real-time.
 *   **Risk Classification**: Categorizes network stability (Low, Medium, Critical) based on performance metrics.
 
+## Key Features
+
+*   **Offline-First Mesh Network**: Enables communication in dead zones by creating a dynamic peer-to-peer network.
+*   **Smart Routing Algorithm**: Uses Breadth-First Search (BFS) to find the most efficient path for messages, automatically rerouting if a node fails.
+*   **Emergency Broadcast System**: Instantly send high-priority SOS alerts that override standard traffic with visual and audio indicators.
+*   **Real-Time Visualization**: Interactive dashboard to view network topology, active nodes, and message flow.
+*   **AI Network Insights**: Analyzes latency and packet drop rates to provide actionable recommendations for network stability.
+*   **Cross-Platform Support**: Built as a Progressive Web App (PWA) to run on laptops, tablets, and smartphones.
+
 ## Architecture
 
 *   **Backend**: Node.js, Express, Socket.io
@@ -21,13 +30,25 @@ When disaster strikes, communication is often the first casualty. GuardianGrid a
 
 ## Prerequisites
 
-*   Node.js 18 or higher
-*   npm (Node Package Manager)
+Before you begin, ensure you have the following installed on your machine:
+
+*   [Node.js](https://nodejs.org/) (Version 18 or higher)
+*   [Git](https://git-scm.com/) (for cloning the repository)
+*   npm (Node Package Manager, comes with Node.js)
 
 ## Installation
 
-1.  Clone the repository.
-2.  Install dependencies for both backend and frontend:
+Follow these steps to set up the project locally on your laptop:
+
+1.  **Clone the Repository**
+    Open your terminal or command prompt and run:
+    ```bash
+    git clone https://github.com/abhi3114-glitch/GuardianGrid.git
+    cd GuardianGrid
+    ```
+
+2.  **Install Dependencies**
+    You need to install dependencies for both the backend and frontend.
 
     **Backend:**
     ```bash
@@ -36,8 +57,9 @@ When disaster strikes, communication is often the first casualty. GuardianGrid a
     ```
 
     **Frontend:**
+    Open a new terminal tab or navigate back to the root and then to frontend:
     ```bash
-    cd frontend
+    cd ../frontend
     npm install --legacy-peer-deps
     ```
 
