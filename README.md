@@ -93,11 +93,20 @@ The frontend application is configured to use HTTPS to support Progressive Web A
 ## Usage Guide
 
 ### Dashboard Overview
+### Dashboard Overview
 The dashboard serves as the central command center, offering the following views:
-*   **Home**: Displays high-level network statistics (Active Nodes, Success Rate, Latency).
+
+*   **Home**: Displays high-level network statistics (Active Nodes, Success Rate, Latency) and critical emergency tools.
+    *   **Emergency Status**: Quickly broadcast your status (Safe, Help Needed, Critical) to the network.
+    *   **Battery Monitor**: Tracks device battery levels to ensure node longevity.
+    *   **Resource Request**: Request specific aid items like Water, Medical Supplies, or Food.
 *   **Mesh**: Visualizes the network topology and allows for node management.
+    *   **Map View**: Real-time geographical tracking of nodes using GPS coordinates.
+    *   **Location Sharing**: Share your precise location with other nodes in the mesh.
 *   **Chat**: Facilitates group communication across the mesh.
 *   **Tools**: Provides emergency utilities and installation options.
+    *   **Emergency Contacts**: Manage and notify designated contacts in case of an alert.
+    *   **Broadcast SOS**: Trigger a high-priority alarm across the entire mesh network.
 
 ### Simulating Network Activity
 Since this is a simulation environment, you can control the mesh topology directly from the dashboard:
